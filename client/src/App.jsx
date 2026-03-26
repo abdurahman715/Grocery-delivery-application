@@ -16,7 +16,7 @@ import SellerLayout from "./pages/seller/SellerLayout.jsx";
 import AddProduct from "./pages/seller/AddProduct.jsx";
 import ProductList from "./pages/seller/ProductList.jsx";
 import Orders from "./pages/seller/Orders.jsx";
-import SellerLogin from "./components/Seller/SellerLogin.jsx";
+import SellerLogin from "./components/seller/SellerLogin.jsx";
 
 const App = () => {
   const isSllerPath = useLocation().pathname.includes("seller");
