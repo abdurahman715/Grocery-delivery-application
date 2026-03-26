@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useAppContext } from "../context/AppContext";
-import { assets, dummyAddress } from "../assets/assets";
+import { useAppContext } from "../context/AppContext.jsx";
+import { assets, dummyAddress } from "../assets/assets.js";
 import toast from "react-hot-toast";
 
 const Cart = () => {
