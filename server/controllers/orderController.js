@@ -5,7 +5,8 @@ import Razorpay from "razorpay";
 //Place order COD
 export const placeOrderCOD = async (req, res) => {
   try {
-    const { userId, items, address } = req.body;
+    const { items, address } = req.body;
+    const { userId } = req;
     if (!address || items.length === 0) {
       return res.json({ success: false, message: "Invalid Data" });
     }
